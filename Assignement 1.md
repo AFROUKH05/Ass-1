@@ -541,7 +541,7 @@ l1 = [2, 5, 8, 12, 14, 3]
 l2 = [3, 1, -1]
 
 def union(l1, l2):
-    l3 = list(set(l1) | set(l2))  # Utilisation de l'opérateur | pour l'union
+    l3 = list(set(l1) | set(l2))  
     return l3
 
 print(union(l1, l2))
